@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "main":"newservice.js",
+  "author":"Test",
+  "description": "For test ",
+    "scripts": {
+    "start": "node newservice.js",
+    "test": "mocha --reporter spec test"
+  },
+  "dependencies": {
+    "express": "latest",
+    "sqlite3": "latest"
+  }
+
+}
